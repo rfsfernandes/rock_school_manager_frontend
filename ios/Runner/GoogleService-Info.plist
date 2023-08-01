@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>337559412891-kucv20frci80lmfkfjlor5lp1c30dm1s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.337559412891-kucv20frci80lmfkfjlor5lp1c30dm1s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBg1bP1mAE9DRxvkUURCNBsMxcKNLL9gTY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>337559412891</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.rockSchoolManagerFrontend</string>
+	<key>PROJECT_ID</key>
+	<string>clavedosul-43866</string>
+	<key>STORAGE_BUCKET</key>
+	<string>clavedosul-43866.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:337559412891:ios:65ead7c4294e1d04cd263e</string>
+	<key>DATABASE_URL</key>
+	<string>https://clavedosul-43866-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

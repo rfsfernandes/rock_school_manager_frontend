@@ -5,9 +5,19 @@ import 'package:rock_school_manager_frontend/screens/dashboard_screen.dart';
 import 'package:rock_school_manager_frontend/screens/nav_screen.dart';
 import 'package:rock_school_manager_frontend/screens/profile_screen.dart';
 import 'package:rock_school_manager_frontend/screens/splash_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
-void main() {
-  runApp(const ManagerApp());
+Future<void> main() async {
+  try {
+    runApp(const ManagerApp());
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } catch (e) {
+    print(e);
+  }
+
 }
 
 class ManagerApp extends StatelessWidget {
